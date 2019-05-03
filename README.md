@@ -34,3 +34,8 @@ Updating the casks is not yet integrated into our build processes. So you might 
 | SapMachine 12 Early Access | `sapmachine12-ea-jdk` | `sapmachine12-ea-jre` |
 | SapMachine 11 Released | `sapmachine11-jdk` | `sapmachine11-jre` |
 | SapMachine 11 Early Access | `sapmachine11-ea-jdk` | `sapmachine11-ea-jre` |
+
+## License
+
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+This file is licensed under theApache Software License, v. 2
