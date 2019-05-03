@@ -10,7 +10,7 @@ At first, if you have not already done it, install homebrew:
 In case you did not just install it, you should update its contents:  
 `brew update`
 
-HomeBrew supports the installation of the latest released SapMachine by default:
+HomeBrew supports the installation of the latest released SapMachine by default:  
 `brew cask install sapmachine-jdk`
 
 However, you might want to install other versions, such as early access builds of releases/updates currently in development or older versions of a certain Java release, e.g. SapMachine 11 LTS. For this you can use this tap.
@@ -37,5 +37,5 @@ Updating the casks is not yet integrated into our build processes. So you might 
 
 ## License
 
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.  
 This file is licensed under theApache Software License, v. 2
