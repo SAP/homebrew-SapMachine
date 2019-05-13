@@ -21,10 +21,6 @@ Tap it via:
 Then you can install SAPMachines, picking `<version>` from the list below:  
 `brew cask install <version>`
 
-## Known issues / Outlook
-
-Updating the casks is not yet integrated into our build processes. So you might run into outdated casks from time to time. In case you encounter such, just drop us a mail (<sapmachine@sap.com>) or open a PR against this repository :)
-
 ## Available versions
 
 | Version | JDK | JRE |
