@@ -18,7 +18,7 @@ However, you might want to install other versions, such as early access builds o
 Tap it via:  
 `brew tap sap/sapmachine`
 
-Then you can install SAPMachines, picking `<version>` from the list below:  
+Then you can install SapMachines, picking `<version>` from the list below:  
 `brew cask install <version>`
 
 ## Available versions
