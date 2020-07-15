@@ -1,7 +1,7 @@
 
 cask 'sapmachine11-jre' do
-  version '11.0.7'
-  sha256 'b694490e4331ab1d604a0319b8909d3863ccd92f45e2ec5439e55cf31f1e4a13'
+  version '11.0.8'
+  sha256 '144bdd632c053b755fdf9c6a8f23b70dfa76b9a5d6c0ed9c578cda15ef835a77'
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jre-#{version}_osx-x64_bin.dmg"
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
