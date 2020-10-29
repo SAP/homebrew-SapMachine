@@ -25,6 +25,12 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 | Version | JDK | JRE |
 |--|--|--|
+| SapMachine 16 Early Access | `sapmachine16-ea-jdk` | `sapmachine16-ea-jre` |
+| SapMachine 15 Released | `sapmachine15-jdk` | `sapmachine15-jre` |
+| SapMachine 15 Early Access | `sapmachine15-ea-jdk` | `sapmachine15-ea-jre` |
+| SapMachine 13 Released | `sapmachine14-jdk` | `sapmachine14-jre` |
+| SapMachine 13 Early Access | `sapmachine14-ea-jdk` | `sapmachine14-ea-jre` |
+| SapMachine 13 Released | `sapmachine13-jdk` | `sapmachine13-jre` |
 | SapMachine 13 Early Access | `sapmachine13-ea-jdk` | `sapmachine13-ea-jre` |
 | SapMachine 12 Released | `sapmachine12-jdk` | `sapmachine12-jre` |
 | SapMachine 12 Early Access | `sapmachine12-ea-jdk` | `sapmachine12-ea-jre` |
@@ -33,5 +39,5 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 ## License
 
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.  
+Copyright (c) 2019-2020 SAP SE or an SAP affiliate company. All rights reserved.  
 This file is licensed under the [Apache Software License, v. 2](https://github.com/SAP/homebrew-SapMachine/blob/master/LICENSE)
