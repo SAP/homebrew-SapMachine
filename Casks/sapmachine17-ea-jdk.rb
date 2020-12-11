@@ -8,7 +8,7 @@ cask 'sapmachine17-ea-jdk' do
   name 'SapMachine OpenJDK Development Kit'
   homepage 'https://sapmachine.io/'
 
-  artifact "sapmachine-jdk-#{version.before_comma}.jdk", target: "/Library/Java/JavaVirtualMachines/sapmachine-#{version.major}-ea.jdk"
+  artifact "sapmachine-jdk-16.jdk", target: "/Library/Java/JavaVirtualMachines/sapmachine-#{version.major}-ea.jdk"
 
   uninstall rmdir: '/Library/Java/JavaVirtualMachines'
 end
