@@ -1,7 +1,7 @@
 
 cask 'sapmachine17-ea-jdk' do
   version '17,29'
-  sha256 'ebb774502efa3832a7c3b2001a5f6befefbb5953edc879fbf37032c72bc1c819'
+  sha256 'd078ce51ec79b3af1eebb84b30fd9fe4f9b36ef65d22036a8c619f1824b3f1e2'
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-x64_bin.dmg"
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
