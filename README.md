@@ -1,5 +1,7 @@
 # HomeBrew Tap for SapMachine
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP/homebrew-SapMachine)](https://api.reuse.software/info/github.com/SAP/homebrew-SapMachine)
+
 ## How to use it
 
 HomeBrew is a package manager for Mac. You can use it to manage your SapMachine installations.
@@ -39,5 +41,4 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 ## License
 
-Copyright (c) 2019-2020 SAP SE or an SAP affiliate company. All rights reserved.  
-This file is licensed under the [Apache Software License, v. 2](https://github.com/SAP/homebrew-SapMachine/blob/master/LICENSE)
+Copyright (c) 2019-2021 SAP SE or an SAP affiliate company and homebrew-SapMachine contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/homebrew-SapMachine).
