@@ -13,7 +13,7 @@ In case you did not just install it, you should update its contents:
 `brew update`
 
 HomeBrew supports the installation of the latest released SapMachine by default:  
-`brew cask install sapmachine-jdk`
+`brew install sapmachine-jdk`
 
 However, you might want to install other versions, such as early access builds of releases/updates currently in development or older versions of a certain Java release, e.g. SapMachine 11 LTS. For this you can use this tap.
 
@@ -21,12 +21,15 @@ Tap it via:
 `brew tap sap/sapmachine`
 
 Then you can install SapMachines, picking `<version>` from the list below:  
-`brew cask install <version>`
+`brew install <version>`
 
 ## Available versions
 
 | Version | JDK | JRE |
 |--|--|--|
+| SapMachine 18 Early Access | `sapmachine18-ea-jdk` | `sapmachine18-ea-jre` |
+| SapMachine 17 Early Access | `sapmachine17-ea-jdk` | `sapmachine17-ea-jre` |
+| SapMachine 16 Released | `sapmachine16-jdk` | `sapmachine16-jre` |
 | SapMachine 16 Early Access | `sapmachine16-ea-jdk` | `sapmachine16-ea-jre` |
 | SapMachine 15 Released | `sapmachine15-jdk` | `sapmachine15-jre` |
 | SapMachine 15 Early Access | `sapmachine15-ea-jdk` | `sapmachine15-ea-jre` |
