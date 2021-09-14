@@ -42,6 +42,18 @@ Then you can install SapMachines, picking `<version>` from the list below:
 | SapMachine 11 Released | `sapmachine11-jdk` | `sapmachine11-jre` |
 | SapMachine 11 Early Access | `sapmachine11-ea-jdk` | `sapmachine11-ea-jre` |
 
+## Requirements
+
+Install brew as documented on https://brew.sh/
+
+## Download and Installation
+
+Tap via `brew tap sap/sapmachine`
+
+## How to obtain support
+
+Open an issue in GitHub. Project members will work on them on a best effort base.
+
 ## License
 
 Copyright (c) 2019-2021 SAP SE or an SAP affiliate company and homebrew-SapMachine contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/homebrew-SapMachine).
