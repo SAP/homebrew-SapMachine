@@ -9,7 +9,7 @@ cask "sapmachine17-jdk" do
   else
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-aarch64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
-    sha256 "e0dce6500b0b3d6bb45fea53b8386cd9a6a38725133f024856f81db6eeb74f9f"
+    sha256 "69b0e647e8d3d0e0de84e5169a305b36b6059cfd77806dfabcbac5364ceccd76"
   end
 
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
