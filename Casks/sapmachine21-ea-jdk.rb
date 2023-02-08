@@ -5,7 +5,7 @@ cask "sapmachine21-ea-jdk" do
   if Hardware::CPU.intel?
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-x64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
-    sha256 "96351d136a18bfc186a74ecfadab0b7219ce5ab446756798c3d5475813433b4c"
+    sha256 "3e9df681d50e9e4e71381147aca5873778b9799a4d4637e7bc713974783b6300"
   else
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
