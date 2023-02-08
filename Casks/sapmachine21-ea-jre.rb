@@ -9,7 +9,7 @@ cask "sapmachine21-ea-jre" do
   else
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
-    sha256 "bd22d499ba6da1d8efd8742693777fdb36b10447f407636650cddd8bd92b7716"
+    sha256 "abc6974c18cad7fd30c9a7deb6d20c9c6bf99f7411aa9aad398acea05fedf3f8"
   end
 
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
