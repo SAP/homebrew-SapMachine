@@ -7,7 +7,7 @@
 HomeBrew is a package manager for Mac. You can use it to manage your SapMachine installations.
 
 At first, if you have not already done it, install homebrew:  
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 In case you did not just install it, you should update its contents:  
 `brew update`
@@ -27,18 +27,11 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 | Version | JDK | JRE |
 |--|--|--|
-| SapMachine 18 Early Access | `sapmachine18-ea-jdk` | `sapmachine18-ea-jre` |
+| SapMachine 21 Early Access | `sapmachine21-ea-jdk` | `sapmachine21-ea-jre` |
+| SapMachine 20 Early Access | `sapmachine20-ea-jdk` | `sapmachine20-ea-jre` |
+| SapMachine 19 Released | `sapmachine19-jdk` | `sapmachine19-jre` |
+| SapMachine 17 Released | `sapmachine17-jdk` | `sapmachine17-jre` |
 | SapMachine 17 Early Access | `sapmachine17-ea-jdk` | `sapmachine17-ea-jre` |
-| SapMachine 16 Released | `sapmachine16-jdk` | `sapmachine16-jre` |
-| SapMachine 16 Early Access | `sapmachine16-ea-jdk` | `sapmachine16-ea-jre` |
-| SapMachine 15 Released | `sapmachine15-jdk` | `sapmachine15-jre` |
-| SapMachine 15 Early Access | `sapmachine15-ea-jdk` | `sapmachine15-ea-jre` |
-| SapMachine 13 Released | `sapmachine14-jdk` | `sapmachine14-jre` |
-| SapMachine 13 Early Access | `sapmachine14-ea-jdk` | `sapmachine14-ea-jre` |
-| SapMachine 13 Released | `sapmachine13-jdk` | `sapmachine13-jre` |
-| SapMachine 13 Early Access | `sapmachine13-ea-jdk` | `sapmachine13-ea-jre` |
-| SapMachine 12 Released | `sapmachine12-jdk` | `sapmachine12-jre` |
-| SapMachine 12 Early Access | `sapmachine12-ea-jdk` | `sapmachine12-ea-jre` |
 | SapMachine 11 Released | `sapmachine11-jdk` | `sapmachine11-jre` |
 | SapMachine 11 Early Access | `sapmachine11-ea-jdk` | `sapmachine11-ea-jre` |
 
