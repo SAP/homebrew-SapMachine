@@ -1,15 +1,15 @@
 
 cask "sapmachine11-ea-jdk" do
-  version "11.0.20,2"
+  version "11.0.20,3"
 
   if Hardware::CPU.intel?
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-x64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
-    sha256 "59888da044cf168e15f12b23d5c6b5eb4b921b4a906fc479cd3d894a13e72a17"
+    sha256 "3c64f89f374d96d0ceb272c96c33adb50c9243da90e2fbd984b761fd0e40fe70"
   else
     url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
          verified: "https://github.com/SAP/SapMachine"
-    sha256 "e690d585648e9cef36f401941109d7284c0099c77144b0cc0bd5156c0660f10a"
+    sha256 "bfd45c9cdaf181af3796c173741c17c961e2cd4ad5d3eadfb1586cd1cd3dbf01"
   end
 
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
