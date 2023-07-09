@@ -4,7 +4,6 @@ cask 'sapmachine13-ea-jre' do
   sha256 '68de5d566fd4bd7512d1318a807b2027322d50e0bdcd5253332c069141009e61'
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_osx-x64_bin.dmg"
-  appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
   name 'SapMachine OpenJDK Development Kit'
   homepage 'https://sapmachine.io/'
 

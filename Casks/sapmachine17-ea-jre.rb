@@ -12,7 +12,6 @@ cask "sapmachine17-ea-jre" do
     sha256 "b319471ec2fef9fd7dfd73b1378fa6eef37b7ac1729f1c404a351804ac1aeaf9"
   end
 
-  appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK build from SAP"
   homepage "https://sapmachine.io/"
