@@ -1,23 +1,22 @@
-
 cask "sapmachine20-ea-jre" do
   version "20.0.2,1"
+  arch arm: "aarch64", intel: "x64"
+  sha256 arm:   "8cbadb9ed42eabe426922f7b76c8d4b3d63908eb3648c53ad9bee02af3c81d84",
+         intel: "72c7c8aaea19075a341225ffb68782234cf188fdbcd8b60bf07745ea2222c412"
 
-  if Hardware::CPU.intel?
-    url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_macos-x64_bin.dmg",
-         verified: "https://github.com/SAP/SapMachine"
-    sha256 "72c7c8aaea19075a341225ffb68782234cf188fdbcd8b60bf07745ea2222c412"
-  else
-    url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
-         verified: "https://github.com/SAP/SapMachine"
-    sha256 "8cbadb9ed42eabe426922f7b76c8d4b3d63908eb3648c53ad9bee02af3c81d84"
-  end
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg",
+      verified: "github.com/SAP/SapMachine/"
 
-  appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
   name "SapMachine OpenJDK Development Kit"
-  desc "OpenJDK build from SAP"
+  desc "OpenJDK distribution from SAP"
   homepage "https://sapmachine.io/"
 
-  artifact "sapmachine-jre-#{version.before_comma}.jre", target: "/Library/Java/JavaVirtualMachines/sapmachine-#{version.major}-ea.jre"
+  # The version information on the homepage is rendered client-side from the
+  # following JSON file, so we have to check it instead.
+  livecheck do
+    url "https://sap.github.io/SapMachine/assets/data/sapmachine_releases.json"
+    regex(/["']tag["']:\s*["']sapmachine[._-]v?(\d+(?:\.\d+)*)["']/i)
+  end
 
-  uninstall rmdir: "/Library/Java/JavaVirtualMachines"
+  artifact "sapmachine-jre-#{version.before_comma}.jre", target: "/Library/Java/JavaVirtualMachines/sapmachine-#{version.major}-ea.jre"
 end
