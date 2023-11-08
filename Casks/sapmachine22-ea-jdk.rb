@@ -1,8 +1,8 @@
 cask "sapmachine22-ea-jdk" do
-  version "22,21"
+  version "22,22"
   arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "572f58e6bbb1d3057a53e6cbc0ad889cb2645edeef8d0556a3d8473303345ef4",
-         intel: "e024245ba61775c60fc473be76a95928ee0f7f2edd1c410701ab3395a72fde56"
+  sha256 arm:   "5b2c9b8fd3898dcd3256cb00a8392070f8a769f7c6106f3dc33fe9f3743cd7e2",
+         intel: "54a2f72eb5a2e1a228096d5cffb4fad473eff5ff98078a0b08c5b880d925d979"
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
