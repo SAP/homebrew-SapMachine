@@ -14,7 +14,7 @@ cask "sapmachine23-ea-jdk" do
   # The version information on the homepage is rendered client-side from the
   # following JSON file, so we have to check it instead.
   livecheck do
-    url "https://sap.github.io/SapMachine/assets/data/sapmachine_releases.json"
+    url "https://sap.github.io/SapMachine/assets/data/sapmachine-releases-#{version.major}.json"
     regex(/["']tag["']:\s*["']sapmachine[._-]v?(\d+(?:\.\d+)*)["']/i)
   end
 
