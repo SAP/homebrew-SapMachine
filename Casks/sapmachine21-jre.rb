@@ -1,8 +1,8 @@
 cask "sapmachine21-jre" do
-  version "21.0.2"
+  version "21.0.3"
   arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "ce059f4b66affc81f053d81873c9313b08e5e9006fb9dfcc66e23bcfd2a6ae19",
-         intel: "824431d9d9ba6453c3e85aa2692e117d3f9fad198abcc77a4a0eb06b59b789af"
+  sha256 arm:   "c1e5b8d4a08713fd490191dbfe46b7531d9470fbb86b755605a1f32ee4ddeab9",
+         intel: "42bd41d0c495de48b721271c4166d419b05e1d382f176ff4aac33761716b15c2"
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jre-#{version}_macos-#{arch}_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
@@ -11,10 +11,9 @@ cask "sapmachine21-jre" do
   desc "OpenJDK distribution from SAP"
   homepage "https://sapmachine.io/"
 
-  # The version information on the homepage is rendered client-side from the
-  # following JSON file, so we have to check it instead.
+  # Check for latest version in SapMachine release data.
   livecheck do
-    url "https://sap.github.io/SapMachine/assets/data/sapmachine_releases.json"
+    url "https://sap.github.io/SapMachine/assets/data/sapmachine-releases-latest.json"
     regex(/["']tag["']:\s*["']sapmachine[._-]v?(\d+(?:\.\d+)*)["']/i)
   end
 
