@@ -23,18 +23,44 @@ Tap it via:
 Then you can install SapMachines, picking `<version>` from the list below:  
 `brew install <version>`
 
-## Available versions
+## Available released versions
 
 | Version | JDK | JRE |
 |--|--|--|
+| SapMachine 24 Released | `sapmachine24-jdk` | `sapmachine24-jre` |
+| SapMachine 23 Released | `sapmachine23-jdk` | `sapmachine23-jre` |
+| SapMachine 22 Released | `sapmachine22-jdk` | `sapmachine22-jre` |
+| SapMachine 21 Released | `sapmachine21-jdk` | `sapmachine21-jre` |
+| SapMachine 20 Released | `sapmachine20-jdk` | `sapmachine20-jre` |
+| SapMachine 19 Released | `sapmachine19-jdk` | `sapmachine19-jre` |
+| SapMachine 18 Released | `sapmachine18-jdk` | `sapmachine18-jre` |
+| SapMachine 17 Released | `sapmachine17-jdk` | `sapmachine17-jre` |
+| SapMachine 16 Released | `sapmachine16-jdk` | `sapmachine16-jre` |
+| SapMachine 15 Released | `sapmachine15-jdk` | `sapmachine15-jre` |
+| SapMachine 14 Released | `sapmachine14-jdk` | `sapmachine14-jre` |
+| SapMachine 13 Released | `sapmachine13-jdk` | `sapmachine13-jre` |
+| SapMachine 12 Released | `sapmachine12-jdk` | `sapmachine12-jre` |
+| SapMachine 11 Released | `sapmachine11-jdk` | `sapmachine11-jre` |
+
+## Available early access versions
+
+| Version | JDK | JRE |
+|--|--|--|
+| SapMachine 25 Early Access | `sapmachine25-ea-jdk` | `sapmachine25-ea-jre` |
+| SapMachine 24 Early Access | `sapmachine24-ea-jdk` | `sapmachine24-ea-jre` |
+| SapMachine 23 Early Access | `sapmachine23-ea-jdk` | `sapmachine23-ea-jre` |
+| SapMachine 22 Early Access | `sapmachine22-ea-jdk` | `sapmachine22-ea-jre` |
 | SapMachine 21 Early Access | `sapmachine21-ea-jdk` | `sapmachine21-ea-jre` |
 | SapMachine 20 Early Access | `sapmachine20-ea-jdk` | `sapmachine20-ea-jre` |
-| SapMachine 19 Released | `sapmachine19-jdk` | `sapmachine19-jre` |
-| SapMachine 17 Released | `sapmachine17-jdk` | `sapmachine17-jre` |
+| SapMachine 19 Early Access | `sapmachine19-ea-jdk` | `sapmachine19-ea-jre` |
+| SapMachine 18 Early Access | `sapmachine18-ea-jdk` | `sapmachine18-ea-jre` |
 | SapMachine 17 Early Access | `sapmachine17-ea-jdk` | `sapmachine17-ea-jre` |
-| SapMachine 11 Released | `sapmachine11-jdk` | `sapmachine11-jre` |
+| SapMachine 16 Early Access | `sapmachine16-ea-jdk` | `sapmachine16-ea-jre` |
+| SapMachine 15 Early Access | `sapmachine15-ea-jdk` | `sapmachine15-ea-jre` |
+| SapMachine 14 Early Access | `sapmachine14-ea-jdk` | `sapmachine14-ea-jre` |
+| SapMachine 13 Early Access | `sapmachine13-ea-jdk` | `sapmachine13-ea-jre` |
+| SapMachine 12 Early Access | `sapmachine12-ea-jdk` | `sapmachine12-ea-jre` |
 | SapMachine 11 Early Access | `sapmachine11-ea-jdk` | `sapmachine11-ea-jre` |
-
 ## Requirements
 
 Install brew as documented on https://brew.sh/
