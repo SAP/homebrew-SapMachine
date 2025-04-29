@@ -30,12 +30,13 @@ Then you can install SapMachines, picking `<version>` from the list below:
 |--|--|--|
 | SapMachine 25 Early Access | `sapmachine25-ea-jdk` | `sapmachine25-ea-jre` |
 
-## Long Term Support (LTS)
+## Released
 
 | Version | JDK | JRE |
 |--|--|--|
-| SapMachine 21 Released | `sapmachine21-jdk` | `sapmachine21-jre` |
-| SapMachine 17 Released | `sapmachine17-jdk` | `sapmachine17-jre` |
+| SapMachine 24 | `sapmachine24-jdk` | `sapmachine24-jre` |
+| SapMachine 21 (LTS) | `sapmachine21-jdk` | `sapmachine21-jre` |
+| SapMachine 17 (LTS) | `sapmachine17-jdk` | `sapmachine17-jre` |
 
 ## (Other) Available Versions
 
