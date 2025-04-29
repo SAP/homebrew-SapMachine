@@ -1,3 +1,4 @@
+markdown escape curly bracket
 # HomeBrew Tap for SapMachine
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/homebrew-SapMachine)](https://api.reuse.software/info/github.com/SAP/homebrew-SapMachine)
@@ -39,7 +40,7 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 ## (Other) Available Versions
 
-Other Versions not listed in this Readme can be found by the pattern 'sapmachine<XX>-{<ea->}-<jdk|jre>' and can be found in the Casks subfolder. 
+1. Other Versions not listed in this Readme can be found by the pattern 'sapmachine<XX>-\{<ea->\}-<jdk|jre>' and can be found in the Casks subfolder. 
 
 ## Requirements
 
