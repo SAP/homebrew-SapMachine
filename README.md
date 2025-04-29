@@ -40,7 +40,7 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 ## (Other) Available Versions
 
-1. Other Versions not listed in this Readme can be found by the pattern 'sapmachine<XX>-\{<ea->\}-<jdk|jre>' and can be found in the Casks subfolder. 
+Other Versions not listed in this Readme can be found by the pattern 'sapmachine<XX>-<ea->-<jdk|jre>' and can be found in the Casks subfolder. 
 
 ## Requirements
 
