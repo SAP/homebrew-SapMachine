@@ -39,6 +39,7 @@ Then you can install SapMachines, picking `<version>` from the list below:
 | SapMachine 17 (LTS) | `sapmachine17-jdk` | `sapmachine17-jre` |
 
 LTS - Long Term Support.
+
 Support time windows for SAP;achine releases can be found [here](https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support).
 
 ## (Other) Available Versions
