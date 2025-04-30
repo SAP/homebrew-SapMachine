@@ -24,23 +24,28 @@ Tap it via:
 Then you can install SapMachines, picking `<version>` from the list below:  
 `brew install <version>`
 
-## Early Access (EA)
-
-| Version | JDK | JRE |
-|--|--|--|
-| SapMachine 25 Early Access | `sapmachine25-ea-jdk` | `sapmachine25-ea-jre` |
-
 ## Released
 
 | Version | JDK | JRE |
 |--|--|--|
-| SapMachine 24 | `sapmachine24-jdk` | `sapmachine24-jre` |
-| SapMachine 21 (LTS) | `sapmachine21-jdk` | `sapmachine21-jre` |
 | SapMachine 17 (LTS) | `sapmachine17-jdk` | `sapmachine17-jre` |
+| SapMachine 21 (LTS) | `sapmachine21-jdk` | `sapmachine21-jre` |
+| SapMachine 24 | `sapmachine24-jdk` | `sapmachine24-jre` |
 
 LTS - Long Term Support.
 
 Maintenance and Support information for SapMachine releases can be found [here](https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support).
+
+## Early Access (EA)
+
+| Version | JDK | JRE |
+|--|--|--|
+| SapMachine 17 Early Access | `sapmachine17-ea-jdk` | `sapmachine17-ea-jre` |
+| SapMachine 21 Early Access | `sapmachine21-ea-jdk` | `sapmachine21-ea-jre` |
+| SapMachine 24 Early Access | `sapmachine24-ea-jdk` | `sapmachine24-ea-jre` |
+| SapMachine 25 Early Access | `sapmachine25-ea-jdk` | `sapmachine25-ea-jre` |
+
+Early Access denotes a published pre-release version for testing the upcoming update/release with that.
 
 ## (Other) Available Versions
 
