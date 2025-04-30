@@ -1,4 +1,3 @@
-markdown escape curly bracket
 # HomeBrew Tap for SapMachine
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP/homebrew-SapMachine)](https://api.reuse.software/info/github.com/SAP/homebrew-SapMachine)
