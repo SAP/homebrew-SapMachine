@@ -40,7 +40,7 @@ Then you can install SapMachines, picking `<version>` from the list below:
 
 LTS - Long Term Support.
 
-Support time windows for SapMachine releases can be found [here](https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support).
+Maintenance and Support information for SapMachine releases can be found [here](https://github.com/SAP/SapMachine/wiki/Maintenance-and-Support).
 
 ## (Other) Available Versions
 
