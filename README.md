@@ -49,7 +49,7 @@ Early Access denotes a published pre-release version for testing the upcoming up
 
 ## (Other) Available Versions
 
-Other (outdated) versions not listed in this Readme can be found by the pattern `sapmachine<XX>{-ea-}-<jdk|jre>` and can be found in the Casks subfolder. 
+Other (outdated) versions not listed in this Readme follow the pattern `sapmachine<XX>{-ea-}-<jdk|jre>` and can be found in the Casks subfolder. 
 
 ## Requirements
 
