@@ -44,7 +44,7 @@ Maintenance and Support information for SapMachine releases can be found [here](
 
 ## (Other) Available Versions
 
-Other Versions not listed in this Readme can be found by the pattern `sapmachine<XX>{-ea-}-<jdk|jre>` and can be found in the Casks subfolder. 
+Other (outdated) versions not listed in this Readme can be found by the pattern `sapmachine<XX>{-ea-}-<jdk|jre>` and can be found in the Casks subfolder. 
 
 ## Requirements
 
