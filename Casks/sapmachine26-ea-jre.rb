@@ -1,8 +1,8 @@
 cask "sapmachine26-ea-jre" do
-  version "26,12"
+  version "26,13"
   arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "d27c3fe8845f95220c0437b06885b26d26c0de3dd04e54c958c4a02e461bcad0",
-         intel: "c7c1b53d65754554b6bcdedb95136f6f670525a78d0e506489e179873a9baa32"
+  sha256 arm:   "5cb5af97e7b6abcb4204c0df07b3ba0b24bfcbb03e1d8b85a273b3d126e6f16c",
+         intel: "9dbe56c02620ac96e785af89d6a6c7557d34be7810313009663101ab8daf7155"
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jre-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
