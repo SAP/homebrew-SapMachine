@@ -1,10 +1,8 @@
 cask "sapmachine26-ea-jdk" do
-  version "26,14"
-  arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "18b3dc8785c5e9a225bf77c91df2c47e1c99b43ccb60e4320a158d5c17763e22",
-         intel: "88e09c1ec36832ade33ac1f6338a8609b4fce62abcfe159ab32e1ae47e923f2a"
+  version "26,15"
+  sha256 "49263a3831a0d377f4986cc298c00052f4d401862f79e097d1e76309d0f1155c"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg",
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
 
   name "SapMachine OpenJDK Development Kit"
