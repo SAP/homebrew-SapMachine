@@ -2,8 +2,10 @@ cask "sapmachine25-jdk" do
   version "25"
   sha256 "14bc09099aaf19ca6e2be84df8757e192500ddcf2359aeb682047cdbc599c7fa"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-aarch64_bin.dmg",
-      verified: "github.com/SAP/SapMachine/"
+  on_arm do
+    url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-aarch64_bin.dmg",
+        verified: "github.com/SAP/SapMachine/"
+  end
 
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK distribution from SAP"
