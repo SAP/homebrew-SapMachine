@@ -1,6 +1,8 @@
 cask "sapmachine26-ea-jdk" do
-  version "26,15"
-  sha256 "49263a3831a0d377f4986cc298c00052f4d401862f79e097d1e76309d0f1155c"
+  version "26,16"
+  sha256 "119d0cab2a981ef7f009648fdb626599acd07ed96004318d9052ce5385660180"
+
+  depends_on arch: :arm64
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
