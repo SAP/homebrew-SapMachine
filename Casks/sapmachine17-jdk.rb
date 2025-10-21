@@ -1,8 +1,8 @@
 cask "sapmachine17-jdk" do
-  version "17.0.16"
+  version "17.0.17"
   arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "2b3478b143421075ccd8a6480f16853b19be7273e301bb0c3aea76668435ba42",
-         intel: "8bc429797b3dc4982b435c5eeafa3024c49c1240ad98f5c6bdd084f5305cff3e"
+  sha256 arm:   "14942e31dbebbf846580af2a5063b3c42491a3c031ebabc252b90fd96a4abe2d",
+         intel: "5824ebe8d995ae0040463a338d4c3702fb801aed3d36d2f0d9d3e9caf91431bb"
 
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-#{arch}_bin.dmg",
       verified: "github.com/SAP/SapMachine/"
