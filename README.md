@@ -41,7 +41,6 @@ Maintenance and Support information for SapMachine releases can be found [here](
 |--|--|--|
 | SapMachine 17 Early Access | `sapmachine17-ea-jdk` | `sapmachine17-ea-jre` |
 | SapMachine 21 Early Access | `sapmachine21-ea-jdk` | `sapmachine21-ea-jre` |
-| SapMachine 24 Early Access | `sapmachine24-ea-jdk` | `sapmachine24-ea-jre` |
 | SapMachine 25 Early Access | `sapmachine25-ea-jdk` | `sapmachine25-ea-jre` |
 | SapMachine 26 Early Access | `sapmachine26-ea-jdk` | `sapmachine26-ea-jre` |
 
