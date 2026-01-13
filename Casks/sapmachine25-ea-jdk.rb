@@ -1,6 +1,6 @@
 cask "sapmachine25-ea-jdk" do
-  version "25.0.1,8"
-  sha256 "cd83efe46cd493fe13955696ce133414818f98e00c05297fa5399d651931c76a"
+  version "25.0.2,1"
+  sha256 "eda903d9b5f7cc54a385a40408d7cdfc8dc4251c307ad4e83c8162917c43cd6d"
 
   depends_on arch: :arm64
 
