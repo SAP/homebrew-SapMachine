@@ -4,8 +4,7 @@ cask "sapmachine20-jdk" do
   sha256 arm:   "8b52aef8ff440ffce862349c226dad1423c6550e1e367873ed84643c61dc2bb9",
          intel: "56943625ec616509b7569c456ff19dfa7bf3489563fbe2f8ab3506cd18f5a33e"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-#{arch}_bin.dmg",
-      verified: "github.com/SAP/SapMachine/"
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_macos-#{arch}_bin.dmg"
 
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK distribution from SAP"

@@ -4,8 +4,7 @@ cask "sapmachine22-ea-jdk" do
   sha256 arm:   "85a3be5c9de341aea857ff333999f5bfc3de5e7aea91a95bbe335cb949ae6197",
          intel: "ef7a772fa7ea2dfab9d97f5a8894e400d60229f8e77c36820ee910b079f81ce8"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg",
-      verified: "github.com/SAP/SapMachine/"
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg"
 
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK distribution from SAP"

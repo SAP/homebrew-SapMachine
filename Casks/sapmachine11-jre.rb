@@ -4,8 +4,7 @@ cask "sapmachine11-jre" do
   sha256 arm:   "575aa400e90836cef2dd16539e2e7785283103bb44f03b8cf2a52f5a1a667a81",
          intel: "06a490a5bcb4595611f9eaad2cdc37a7f65e1ef6ac8cad80e74c99c923e2ea7d"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jre-#{version}_macos-#{arch}_bin.dmg",
-      verified: "github.com/SAP/SapMachine/"
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jre-#{version}_macos-#{arch}_bin.dmg"
 
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK distribution from SAP"
