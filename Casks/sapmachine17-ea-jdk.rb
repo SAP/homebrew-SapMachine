@@ -1,10 +1,10 @@
 cask "sapmachine17-ea-jdk" do
-  version "17.0.21,7"
-  arch arm: "aarch64", intel: "x64"
-  sha256 arm:   "ff41aada55e3dd0b99b8a587580e10659c5a050a9a905eb682d610f770accae5",
-         intel: "dd4540f8fc5778c6e2708150eb6582d08dcade4cf8f3069a79e5af8ca58e3e4f"
+  version "17.0.21,8"
+  sha256 "98c8a5fd8aa7ea25e9f5202437cc3fce31a4560f5052e475588f7b7baf7acc99"
 
-  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-#{arch}_bin.dmg"
+  depends_on arch: :arm64
+
+  url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version.before_comma}%2B#{version.after_comma}/sapmachine-jdk-#{version.before_comma}-ea.#{version.after_comma}_macos-aarch64_bin.dmg"
 
   name "SapMachine OpenJDK Development Kit"
   desc "OpenJDK distribution from SAP"
