@@ -1,6 +1,6 @@
 cask "sapmachine25-ea-jre" do
-  version "25.0.6,2"
-  sha256 "254797a8c96f194e24338f9774fe4d3b7324f1a27b7adfb7861c9c19e0fbbe5e"
+  version "25.0.6,3"
+  sha256 "3e21832599d097f9b52a2eea2bf32cd4510806a04b2b51fcac77ce653b0a4f72"
 
   depends_on arch: :arm64
 
